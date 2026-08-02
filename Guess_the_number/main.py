@@ -1,5 +1,6 @@
 import random
 
+print("Welcome to number guessing game")
 number = random.randint(1, 100)
 
 print("Choose a difficulty: easy or hard")
