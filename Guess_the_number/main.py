@@ -6,10 +6,13 @@ number = random.randint(1, 100)
 print("Choose a difficulty: easy or hard")
 level = input("Type 'easy' or 'hard': ")
 
+EASY_ATTEMPTS = 10
+HARD_ATTEMPTS = 5
+
 if level == "hard":
-    attempts = 5
+    attempts = HARD_ATTEMPTS
 else:
-    attempts = 10
+    attempts = EASY_ATTEMPTS
 
 print("I'm thinking of a number between 1 and 100.")
 
